@@ -32,7 +32,7 @@ h1 {
   text-align: center;
   margin-bottom: 3.8rem;
   color: #1e1f36;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 h6 {
   font-size: 1.3rem;
@@ -63,7 +63,7 @@ section {
 .image1 {
   background-image: url("images/bg-pattern-mobile.svg");
   background-repeat: no-repeat;
-  background-size: 89%;
+  background-size: contain;
   background-position: top;
   position: absolute;
   left: 50%;
@@ -74,7 +74,7 @@ section {
 
 .image1 img {
   position: absolute;
-  top: -109px;
+  top: -117px;
   left: 50%;
   transform: translateX(-50%);
   width: 237px;

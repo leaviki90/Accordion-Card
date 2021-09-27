@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="author" content='Violeta Petrović'>
+    <meta name="description" content='Accordion made from pure CSS'>
+    <meta name="keywords" content='html, css,responsive'>
+
+    <!-- IOS compatibility -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Accordion Card">
+    <link rel="apple-touch-icon" type="image/png" href="/apple-icon-144x144 .png">
+
+    <!--Android compatibility-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="aplication-name" content="Accordion Card">
+    <link rel="icon" type="image/png" href="android-icon-192x192.png">
+
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <title>Accordion Card</title>
+</head>
+
+<body>
+    <section>
+
+        <div class="container">
+            <div class="images">
+                <figure class="image1">
+                    <img src="css/images/illustration-woman-online-mobile.svg" alt="illustration-woman-online">
+                </figure>
+                <figure class="overflow-images">
+
+                    <img src="css/images/illustration-woman-online-desktop.svg" alt="illustration-woman-online"
+                        class="image2 d-none">
+
+                    <img src="css/images/bg-pattern-desktop.svg" alt="bg-pattern-desktop" class="image3 d-none">
+
+                </figure>
+            </div>
+            <figure>
+                <img src="css/images/illustration-box-desktop.svg" alt="illustration-box-desktop" class="image4 d-none">
+            </figure>
+            <div class="accordion">
+                <h1>FAQ</h1>
+                <div class="tab">
+                    <input id="tab1" type="checkbox">
+                    <label for="tab1">How many team members can I invite?</label>
+                    <div class="tab-content">
+                        <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members
+                            for the Premium plan.
+                        </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input id="tab2" type="checkbox" checked>
+                    <label for="tab2">What is the maximum file upload size?</label>
+                    <div class="tab-content">
+                        <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input id="tab3" type="checkbox">
+                    <label for="tab3">How do I reset my password?</label>
+                    <div class="tab-content">
+                        <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+                            A reset link will be emailed to you.</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input id="tab4" type="checkbox">
+                    <label for="tab4">Can I cancel my subscription?</label>
+                    <div class="tab-content">
+                        <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input id="tab5" type="checkbox">
+                    <label for="tab5">Do you provide additional support?</label>
+                    <div class="tab-content">
+                        <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
